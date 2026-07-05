@@ -72,8 +72,8 @@ python -m unittest test_app.py
 This system implements strict structural sandboxing. Databases (*.db) and dynamic error telemetry charts (error.log) are completely decoupled via localized .gitignore rules to ensure absolute isolation between development stacks and active user dataspaces.
 👨‍💻 Engineer Showcase
 
-    Lead Architect: Mahdi Islam Musanna
+Lead Architect: Mahdi Islam Musanna
 
-    Academic Track: Computer Science & Technology (CST), 2nd Semester
+Academic Track: Computer Science & Technology (CST), 2nd Semester
 
-    Interactive Portfolio: [Explore My Tech Arsenal 🚀](https://mi-musanna.github.io)
+Interactive Portfolio: [Explore My Tech Arsenal 🚀](https://mi-musanna.github.io)
