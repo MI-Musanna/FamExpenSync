@@ -45,27 +45,27 @@ Unlike traditional web applications that rely on heavy multi-page processing or 
 
 ### 1. Clone the Vault
 
-git clone [https://github.com/your-username/The-Iron-Vault.git](https://github.com/your-username/The-Iron-Vault.git)
-cd The-Iron-Vault
+```git clone [https://github.com/your-username/The-Iron-Vault.git](https://github.com/your-username/The-Iron-Vault.git)```
+```cd The-Iron-Vault```
 
 2. Install Hardware Subsystems Dependencies
 
 Ensure you have pip and Python installed, then bootstrap the server elements:
 
-pip install flask sqlalchemy waitress
+```pip install flask sqlalchemy waitress```
 
 3. Launching Production Infrastructure
 
 To instantiate the environment mapping, boot the WSGI controller:
 
-python app.py
+```python app.py```
 
 The application will map itself dynamically onto your local network. You can access it via localhost: http://127.0.0.1:5000 or broadcast it over LAN using your host IPv4 address.
 🧪 Executing Regression Testing Suite
 
 To ensure the backend input validation guards and PIN handshakes are operating flawlessly:
 
-python -m unittest test_app.py
+```python -m unittest test_app.py```
 
 🛠️ Development Hygiene & Safety
 
