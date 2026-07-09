@@ -46,7 +46,7 @@ Unlike traditional web applications that rely on heavy multi-page processing or 
 ### 1. Clone the Vault
 
 ```
-git clone [https://github.com/your-username/The-Iron-Vault.git](https://github.com/your-username/The-Iron-Vault.git)
+git clone https://github.com/MI-Musanna/FamExpenSync
 ```
 ```
 cd The-Iron-Vault
